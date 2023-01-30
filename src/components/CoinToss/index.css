@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 60vh;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.heading {
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 35px;
+}
+
+.para {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image {
+  height: 180px;
+  width: 180px;
+}
+
+.tossButton {
+  background-color: #e2a139;
+  color: #a35200;
+  border-width: 0px;
+  font-size: 10px;
+  padding: 6px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 220px;
+  margin-top: 10px;
+}
+
+.score {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
